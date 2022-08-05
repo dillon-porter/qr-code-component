@@ -1,0 +1,71 @@
+:root {
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --light-gray: hsl(212, 45%, 89%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--grayish-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 360px;
+    background-color: var(--white);
+    border-radius: 20px;
+    text-align: center;
+    height: 100%;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin: 15px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.card p {
+    text-align: center;
+    line-height: 1.2rem;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 45px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    color: var(--grayish-blue);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
