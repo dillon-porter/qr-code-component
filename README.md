@@ -2,6 +2,9 @@
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+- ### [Challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- ### [Solution](https://dillon-porter.github.io/qr-code-component/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
